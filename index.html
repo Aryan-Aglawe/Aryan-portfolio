@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan | Web Developer Portfolio</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <header class="fixed w-full bg-opacity-90 backdrop-blur-sm bg-gray-900 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+               <a href="#about" class="custom-name">
+               <span class="highlight-rgb">A</span>ryan</a>
+
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-300 hover:text-white">Home</a>
+                    <a href="#about" class="nav-link text-gray-300 hover:text-white">About</a>
+                    <a href="#projects" class="nav-link text-gray-300 hover:text-white">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-300 hover:text-white">Contact</a>
+                </div>
+                
+                <a href="#contact" class="hidden md:block btn-primary text-white px-6 py-2 rounded-full font-medium">Hire Me</a>
+                
+                <button id="menu-btn" class="md:hidden text-gray-300 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2 text-gray-300 hover:text-white">Home</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white">About</a>
+                <a href="#projects" class="block py-2 text-gray-300 hover:text-white">Projects</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
+                <a href="#contact" class="mt-2 inline-block btn-primary text-white px-4 py-2 rounded-full font-medium">Hire Me</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 py-16">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
+                     Hi, I'm <span class="text-indigo-500">Aryan</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl text-gray-300 mb-6">
+                        Full Stack <span class="text-emerald-400">Web Developer</span>
+                    </h2>
+                    <p class="text-gray-400 mb-8 max-w-lg">
+                        I craft exceptional digital experiences with clean, efficient code and modern design principles. Let's build something amazing together!
+                    </p>
+                    <div class="flex space-x-4">
+                        
+                        <a href="#contact" class="btn-primary text-white px-6 py-3 rounded-full font-medium">Get In Touch</a>
+                        <a href="#projects" class="border border-indigo-500 text-indigo-500 hover:bg-indigo-500 hover:text-white px-6 py-3 rounded-full font-medium transition duration-300">View Work</a>
+                    </div>
+                    
+                    <div class="mt-10 flex space-x-4">
+                        <a href="https://github.com/Aryan-Aglawe" class="text-gray-400 hover:text-white" aria-label="GitHub">
+                            <i class="fab fa-github text-2xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aryan-aglawe-050827345" class="text-gray-400 hover:text-white" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white" aria-label="Twitter">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+              
+    </section>
+    <div class="photoimgage">
+  <div class="w-80 h-80 rounded-full hidden md:block overflow-hidden shadow-lg border-4 border-indigo-500">
+    <img src="./portfolio photo.jpg" alt="Aryan" class="w-full h-full object-cover" />
+  </div>
+</div>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-indigo-500">Me</span></h2>
+                <div class="h-1 w-20 bg-indigo-500 mx-auto"></div>
+            </div>
+            
+            <!-- <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Aryan" class="w-full h-full object-cover">
+                    </div>
+                </div> -->
+                
+            <div class="md:w-2/3 md:pl-12">
+                <div class="para">
+                    <h3 class="text-2xl font-bold mb-6">Who am I?</h3>
+                    <p class="text-gray-300 mb-6">
+                        I'm a passionate full-stack web developer with over 2 years of experience creating modern web applications. I specialize in JavaScript frameworks like React and Vue.js for the frontend, and Node.js with Express for the backend.
+                    </p>
+                    <p class="text-gray-300 mb-8">
+                        My journey in web development started when I was in college and fell in love with the process of turning ideas into interactive experiences. Since then, I've worked with startups and established companies to build scalable, user-friendly web solutions.
+                    </p>
+                </div>
+                
+                    <div class="about">
+                    <div class="mb-8  my-custom-class"> 
+                        <h4 class="text-xl justify-center font-bold mb-4">My Skills</h4>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
+                                <p class="font-medium">HTML5</p>
+                            </div>
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
+                                <p class="font-medium">CSS3</p>
+                            </div>
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fab fa-js text-4xl text-yellow-400 mb-2"></i>
+                                <p class="font-medium">JavaScript</p>
+                            </div>
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fab fa-react text-4xl text-blue-400 mb-2"></i>
+                                <p class="font-medium">React</p>
+                            </div>
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fab fa-node-js text-4xl text-green-500 mb-2"></i>
+                                <p class="font-medium">Node.js</p>
+                            </div>
+                            <div class="skill-card bg-gray-700 p-4 rounded-lg shadow text-center">
+                                <i class="fas fa-database text-4xl text-blue-300 mb-2"></i>
+                                <p class="font-medium">MongoDB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-indigo-500">Projects</span></h2>
+                <div class="h-1 w-20 bg-indigo-500 mx-auto"></div>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Here are some of my recent projects. Each one presented unique challenges that helped me grow as a developer.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="E-commerce Platform" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <span class="inline-block bg-indigo-500 text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">Full Stack</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Weather App</h3>
+                        <p class="text-gray-400 mb-4">
+                            full stack weahter application that provides real-time weather updates and forecasts using OpenWeatherMap API.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">html</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">css</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">react</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href=" https://aryan-aglawe.github.io/mini-project/" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Aryan-Aglawe/mini-project.git" class="text-gray-400 hover:text-gray-300 text-sm font-medium flex items-center">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Task Management App" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <span class="inline-block bg-emerald-500 text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">Frontend</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Tic-Tac-Toe</h3>
+                        <p class="text-gray-400 mb-4">
+                            basic game of tic-tac-toe built with HTML, CSS, and JavaScript. Play against the computer or a friend in this classic game.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">html</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">css</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">JavaScript</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Aryan-Aglawe/tic-tak-toe.git" class="text-gray-400 hover:text-gray-300 text-sm font-medium flex items-center">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-900">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact <span class="text-indigo-500">Me</span></h2>
+      <div class="h-1 w-20 bg-indigo-500 mx-auto"></div>
+    </div>
+
+    <div class="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="6f112539-d372-4095-913b-c76886489bf0">
+
+        <!-- Name -->
+        <div class="mb-6">
+          <label for="name" class="block mb-2 text-sm font-medium text-white">Name</label>
+          <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white" placeholder="Your name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-6">
+          <label for="email" class="block mb-2 text-sm font-medium text-white">Email</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white" placeholder="you@example.com" required>
+        </div>
+
+        <!-- Message -->
+        <div class="mb-6">
+          <label for="message" class="block mb-2 text-sm font-medium text-white">Message</label>
+          <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full font-medium transition duration-300">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center">
+        <p>&copy; 2025 . Made with ❤️ by Aryan.</p>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
