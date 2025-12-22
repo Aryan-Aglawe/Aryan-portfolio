@@ -1,1 +1,1 @@
- https://aryan-aglawe.github.io/Aryan-portfolio/
+https://aryan-portfolio-rouge.vercel.app/
